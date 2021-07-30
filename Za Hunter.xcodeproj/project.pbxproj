@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D54A558B26B472BF00169E1D /* Za_HunterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A558A26B472BF00169E1D /* Za_HunterApp.swift */; };
+		D54A558D26B472BF00169E1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A558C26B472BF00169E1D /* ContentView.swift */; };
+		D54A558F26B472C100169E1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D54A558E26B472C100169E1D /* Assets.xcassets */; };
+		D54A559226B472C100169E1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D54A559126B472C100169E1D /* Preview Assets.xcassets */; };
+		D54A559D26B472C100169E1D /* Za_HunterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A559C26B472C100169E1D /* Za_HunterTests.swift */; };
+		D54A55A826B472C100169E1D /* Za_HunterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A55A726B472C100169E1D /* Za_HunterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D54A559926B472C100169E1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D54A557F26B472BF00169E1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D54A558626B472BF00169E1D;
+			remoteInfo = "Za Hunter";
+		};
+		D54A55A426B472C100169E1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D54A557F26B472BF00169E1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D54A558626B472BF00169E1D;
+			remoteInfo = "Za Hunter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D54A558726B472BF00169E1D /* Za Hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Za Hunter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D54A558A26B472BF00169E1D /* Za_HunterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Za_HunterApp.swift; sourceTree = "<group>"; };
+		D54A558C26B472BF00169E1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D54A558E26B472C100169E1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D54A559126B472C100169E1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D54A559326B472C100169E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D54A559826B472C100169E1D /* Za HunterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Za HunterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D54A559C26B472C100169E1D /* Za_HunterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Za_HunterTests.swift; sourceTree = "<group>"; };
+		D54A559E26B472C100169E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D54A55A326B472C100169E1D /* Za HunterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Za HunterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D54A55A726B472C100169E1D /* Za_HunterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Za_HunterUITests.swift; sourceTree = "<group>"; };
+		D54A55A926B472C100169E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D54A558426B472BF00169E1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54A559526B472C100169E1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54A55A026B472C100169E1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D54A557E26B472BF00169E1D = {
+			isa = PBXGroup;
+			children = (
+				D54A558926B472BF00169E1D /* Za Hunter */,
+				D54A559B26B472C100169E1D /* Za HunterTests */,
+				D54A55A626B472C100169E1D /* Za HunterUITests */,
+				D54A558826B472BF00169E1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D54A558826B472BF00169E1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D54A558726B472BF00169E1D /* Za Hunter.app */,
+				D54A559826B472C100169E1D /* Za HunterTests.xctest */,
+				D54A55A326B472C100169E1D /* Za HunterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D54A558926B472BF00169E1D /* Za Hunter */ = {
+			isa = PBXGroup;
+			children = (
+				D54A558A26B472BF00169E1D /* Za_HunterApp.swift */,
+				D54A558C26B472BF00169E1D /* ContentView.swift */,
+				D54A558E26B472C100169E1D /* Assets.xcassets */,
+				D54A559326B472C100169E1D /* Info.plist */,
+				D54A559026B472C100169E1D /* Preview Content */,
+			);
+			path = "Za Hunter";
+			sourceTree = "<group>";
+		};
+		D54A559026B472C100169E1D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D54A559126B472C100169E1D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D54A559B26B472C100169E1D /* Za HunterTests */ = {
+			isa = PBXGroup;
+			children = (
+				D54A559C26B472C100169E1D /* Za_HunterTests.swift */,
+				D54A559E26B472C100169E1D /* Info.plist */,
+			);
+			path = "Za HunterTests";
+			sourceTree = "<group>";
+		};
+		D54A55A626B472C100169E1D /* Za HunterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D54A55A726B472C100169E1D /* Za_HunterUITests.swift */,
+				D54A55A926B472C100169E1D /* Info.plist */,
+			);
+			path = "Za HunterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D54A558626B472BF00169E1D /* Za Hunter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D54A55AC26B472C100169E1D /* Build configuration list for PBXNativeTarget "Za Hunter" */;
+			buildPhases = (
+				D54A558326B472BF00169E1D /* Sources */,
+				D54A558426B472BF00169E1D /* Frameworks */,
+				D54A558526B472BF00169E1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Za Hunter";
+			productName = "Za Hunter";
+			productReference = D54A558726B472BF00169E1D /* Za Hunter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D54A559726B472C100169E1D /* Za HunterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D54A55AF26B472C100169E1D /* Build configuration list for PBXNativeTarget "Za HunterTests" */;
+			buildPhases = (
+				D54A559426B472C100169E1D /* Sources */,
+				D54A559526B472C100169E1D /* Frameworks */,
+				D54A559626B472C100169E1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D54A559A26B472C100169E1D /* PBXTargetDependency */,
+			);
+			name = "Za HunterTests";
+			productName = "Za HunterTests";
+			productReference = D54A559826B472C100169E1D /* Za HunterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D54A55A226B472C100169E1D /* Za HunterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D54A55B226B472C100169E1D /* Build configuration list for PBXNativeTarget "Za HunterUITests" */;
+			buildPhases = (
+				D54A559F26B472C100169E1D /* Sources */,
+				D54A55A026B472C100169E1D /* Frameworks */,
+				D54A55A126B472C100169E1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D54A55A526B472C100169E1D /* PBXTargetDependency */,
+			);
+			name = "Za HunterUITests";
+			productName = "Za HunterUITests";
+			productReference = D54A55A326B472C100169E1D /* Za HunterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D54A557F26B472BF00169E1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D54A558626B472BF00169E1D = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					D54A559726B472C100169E1D = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D54A558626B472BF00169E1D;
+					};
+					D54A55A226B472C100169E1D = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D54A558626B472BF00169E1D;
+					};
+				};
+			};
+			buildConfigurationList = D54A558226B472BF00169E1D /* Build configuration list for PBXProject "Za Hunter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D54A557E26B472BF00169E1D;
+			productRefGroup = D54A558826B472BF00169E1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D54A558626B472BF00169E1D /* Za Hunter */,
+				D54A559726B472C100169E1D /* Za HunterTests */,
+				D54A55A226B472C100169E1D /* Za HunterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D54A558526B472BF00169E1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54A559226B472C100169E1D /* Preview Assets.xcassets in Resources */,
+				D54A558F26B472C100169E1D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54A559626B472C100169E1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54A55A126B472C100169E1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D54A558326B472BF00169E1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54A558D26B472BF00169E1D /* ContentView.swift in Sources */,
+				D54A558B26B472BF00169E1D /* Za_HunterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54A559426B472C100169E1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54A559D26B472C100169E1D /* Za_HunterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54A559F26B472C100169E1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54A55A826B472C100169E1D /* Za_HunterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D54A559A26B472C100169E1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D54A558626B472BF00169E1D /* Za Hunter */;
+			targetProxy = D54A559926B472C100169E1D /* PBXContainerItemProxy */;
+		};
+		D54A55A526B472C100169E1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D54A558626B472BF00169E1D /* Za Hunter */;
+			targetProxy = D54A55A426B472C100169E1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D54A55AA26B472C100169E1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D54A55AB26B472C100169E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D54A55AD26B472C100169E1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Za Hunter/Preview Content\"";
+				DEVELOPMENT_TEAM = 5LN93YZUW6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Za Hunter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cynthiawang.Za-Hunter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D54A55AE26B472C100169E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Za Hunter/Preview Content\"";
+				DEVELOPMENT_TEAM = 5LN93YZUW6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Za Hunter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cynthiawang.Za-Hunter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D54A55B026B472C100169E1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5LN93YZUW6;
+				INFOPLIST_FILE = "Za HunterTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cynthiawang.Za-HunterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Za Hunter.app/Za Hunter";
+			};
+			name = Debug;
+		};
+		D54A55B126B472C100169E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5LN93YZUW6;
+				INFOPLIST_FILE = "Za HunterTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cynthiawang.Za-HunterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Za Hunter.app/Za Hunter";
+			};
+			name = Release;
+		};
+		D54A55B326B472C100169E1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5LN93YZUW6;
+				INFOPLIST_FILE = "Za HunterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cynthiawang.Za-HunterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Za Hunter";
+			};
+			name = Debug;
+		};
+		D54A55B426B472C100169E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5LN93YZUW6;
+				INFOPLIST_FILE = "Za HunterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cynthiawang.Za-HunterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Za Hunter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D54A558226B472BF00169E1D /* Build configuration list for PBXProject "Za Hunter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D54A55AA26B472C100169E1D /* Debug */,
+				D54A55AB26B472C100169E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D54A55AC26B472C100169E1D /* Build configuration list for PBXNativeTarget "Za Hunter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D54A55AD26B472C100169E1D /* Debug */,
+				D54A55AE26B472C100169E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D54A55AF26B472C100169E1D /* Build configuration list for PBXNativeTarget "Za HunterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D54A55B026B472C100169E1D /* Debug */,
+				D54A55B126B472C100169E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D54A55B226B472C100169E1D /* Build configuration list for PBXNativeTarget "Za HunterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D54A55B326B472C100169E1D /* Debug */,
+				D54A55B426B472C100169E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D54A557F26B472BF00169E1D /* Project object */;
+}
