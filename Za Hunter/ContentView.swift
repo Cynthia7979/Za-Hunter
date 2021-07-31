@@ -40,19 +40,25 @@ struct ContentView: View {
     }
     
     func performSearch(item: String) {
+        print("Performing search on: \(item)")
         let searchRequest = MKLocalSearch.Request()
         searchRequest.naturalLanguageQuery = item
         searchRequest.region = region
         let search = MKLocalSearch(request: searchRequest)
         search.start { response, error in
             if let response = response {
+                print("Obtained search result of: \(item).")
                 for mapItem in response.mapItems {
+                    print("\(mapItem)")
                     let annotation = MKPointAnnotation()
                     annotation.coordinate = mapItem.placemark.coordinate
                     annotation.title = mapItem.name
                     places.append(Place(annotation: annotation, mapItem: mapItem))
                 }
+                print("Finishing search request on: \(item). Places: \(places)")
+                return
             }
+            print("Error: Failure fetching search results. error = \(String(describing: error))")
         }
     }
 }
@@ -76,6 +82,8 @@ struct Marker: View {
             Link(destination: url, label: {
                 Image("pizza")
             })
+        } else {
+            Image("pizza")
         }
     }
 }
