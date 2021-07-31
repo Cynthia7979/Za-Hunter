@@ -28,7 +28,8 @@ struct ContentView: View {
             interactionModes: .all,
             showsUserLocation: true,
             userTrackingMode: $userTrackingMode,
-            annotationItems: places) { place in
+            annotationItems: places
+        ) { place in
             MapAnnotation(coordinate: place.annotation.coordinate) {
                 Marker(mapItem: place.mapItem)
             }
